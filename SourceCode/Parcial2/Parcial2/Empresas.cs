@@ -10,8 +10,8 @@ namespace Parcial2
         public Empresas()
         {
             InitializeComponent();
-            button2.Enabled = true;
-            button4.Enabled = true;
+            button2.Enabled = false;
+            button4.Enabled = false;
         }
         
         private void Empresas_Load(object sender, EventArgs e)
@@ -29,7 +29,7 @@ namespace Parcial2
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Ha ocurrido un problema");
+                MessageBox.Show("ERROR");
             }
         }
         
@@ -81,7 +81,7 @@ namespace Parcial2
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Ha ocurrido un error");
+                    MessageBox.Show("ERROR");
                 }
             }
         }
@@ -90,7 +90,7 @@ namespace Parcial2
         {
             DialogResult deleteconfirm;
             
-            if (comboBox1.Text == "")
+            if (textBox3.Text == "")
             {
                 MessageBox.Show("No se pueden dejar el campo vacio ");
             }
@@ -105,23 +105,12 @@ namespace Parcial2
                 {
                     try
                     {
-                        var users = ConexionBD.ExecuteQuery("SELECT name FROM BUSINESS");
-                        var usersCombo = new List<string>();
-                        usersCombo.Add("");
-                        foreach (DataRow dr in users.Rows)
-                        {
-                            usersCombo.Add(dr[0].ToString());
-                        }
-                        comboBox1.DataSource = usersCombo;
-
-                        string cad = comboBox1.SelectedItem.ToString();
-                        
                         ConexionBD.ExecuteNonQuery("DELETE FROM public.BUSINESS WHERE name ="+
-                                                   $"'{cad}'");
-                        
+                                                   $"'{textBox3.Text}'");
+                        textBox4.Clear();
                         textBox1.Clear();
                         textBox2.Clear();
-                        textBox4.Clear();
+                        textBox3.Clear();
                         comboBox1_Load();
                         comboBox2_Load();
                         comboBox3_Load();
@@ -129,7 +118,6 @@ namespace Parcial2
                         MessageBox.Show("Empresa eliminada","Eliminar empresa", MessageBoxButtons.OK,
                             MessageBoxIcon.Information);
                         
-                        comboBox1_Load();
                     }
                     catch (Exception exception)
                     {
@@ -139,23 +127,28 @@ namespace Parcial2
                 }
                 else
                 {
-                    comboBox1.Text = "";
+                    textBox3.Text = "";
                 }
             }
         } 
-        
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             
             if (comboBox1.Text != "")
             {
                 button2.Enabled = true;
+                textBox3.Text = comboBox1.SelectedItem.ToString();
             }
             else
             {
                 button2.Enabled = false;
+                textBox3.Text = "";
             }
         }
+        
+        
+        
+        
         
         
         
@@ -233,7 +226,7 @@ namespace Parcial2
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Ha ocurrido un error");
+                    MessageBox.Show("ERROR");
                 }
             }
         }
@@ -243,13 +236,13 @@ namespace Parcial2
         {
             DialogResult deleteconfirm;
             
-            if (comboBox2.Text == "")
+            if (textBox5.Text == "")
             {
                 MessageBox.Show("No se pueden dejar el campo vacio ");
             }
             else
             {
-                button4.Enabled = true;
+                button2.Enabled = true;
                 
                 deleteconfirm = MessageBox.Show("Se borrara el producto","Confirmar",
                     MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation);
@@ -258,30 +251,19 @@ namespace Parcial2
                 {
                     try
                     {
-                        var users = ConexionBD.ExecuteQuery("SELECT name FROM PRODUCT");
-                        var usersCombo = new List<string>();
-                        usersCombo.Add("");
-                        foreach (DataRow dr in users.Rows)
-                        {
-                            usersCombo.Add(dr[0].ToString());
-                        }
-                        comboBox2.DataSource = usersCombo;
-
-                        string cad = comboBox2.SelectedItem.ToString();
-                        
                         ConexionBD.ExecuteNonQuery("DELETE FROM public.PRODUCT WHERE name ="+
-                                                   $"'{cad}'");
-                        
+                                                     $"'{textBox5.Text}'");
+                        textBox4.Clear();
                         textBox1.Clear();
                         textBox2.Clear();
-                        textBox4.Clear();
-                        comboBox1_Load();
-                        comboBox2_Load();
-                        comboBox3_Load();
-
+                        textBox3.Clear();
+                        
                         MessageBox.Show("Producto eliminado","Eliminar producto", MessageBoxButtons.OK,
                             MessageBoxIcon.Information);
                         
+                        comboBox2_Load();
+                        comboBox1_Load();
+                        comboBox3_Load();
                     }
                     catch (Exception exception)
                     {
@@ -291,21 +273,22 @@ namespace Parcial2
                 }
                 else
                 {
-                    comboBox2.Text = "";
+                    textBox5.Text = "";
                 }
             }
         } 
-        
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             
             if (comboBox2.Text != "")
             {
                 button4.Enabled = true;
+                textBox5.Text = comboBox2.SelectedItem.ToString();
             }
             else
             {
                 button4.Enabled = false;
+                textBox5.Text = "";
             }
         }
 
