@@ -17,7 +17,7 @@ namespace Preparcial
         // Evento Load del FrmLogin, para cargar la imagen del logo UCA desde la carpeta root
         private void FrmLogin_Load(object sender, EventArgs e)
         {
-            pictureBox1.BackgroundImage = Image.FromFile(@"C:\Users\campe\Desktop\Preparcial\Recursos/UCA.png");
+            pictureBox1.BackgroundImage = Image.FromFile("../../Recursos/UCA.png");
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
 
             PoblarControlers();
@@ -56,7 +56,10 @@ namespace Preparcial
         private void BttnUpdatePassword_Click(object sender, EventArgs e)
         {
             FrmPassword frmPassword = new FrmPassword();
-            frmPassword.Show();
+            //Correccion: cambio de .Show a .ShowDialog
+            frmPassword.ShowDialog();
+            //Correccion: actualizando la nueva contraseña
+            PoblarControlers();
         }
     }
 }

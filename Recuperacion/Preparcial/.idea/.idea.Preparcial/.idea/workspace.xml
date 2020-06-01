@@ -1,40 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="312661e7-386e-4e3c-bac9-f42bda24d110" name="Default Changelist" comment="" />
+    <list default="true" id="312661e7-386e-4e3c-bac9-f42bda24d110" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Preparcial/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Preparcial/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Preparcial/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Preparcial/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vista/FrmLogin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/FrmLogin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vista/FrmMain.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/FrmMain.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vista/FrmMain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/FrmMain.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vista/FrmPassword.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/FrmPassword.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/Preparcial.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Preparcial.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/Preparcial.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Preparcial.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Preparcial.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Preparcial.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Preparcial.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Preparcial.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Preparcial.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Preparcial.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Preparcial.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Preparcial.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Controlador/ConexionBD.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Modelo/Pedido.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Modelo/Usuario.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Controlador/ControladorInventario.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Modelo/Inventario.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Vista/FrmLogin.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vista/FrmMain.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vista/FrmPassword.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controlador/ControladorPedido.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/FrmMain.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controlador/ControladorUsuario.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controlador/ConexionBD.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controlador/ControladorInventario.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/FrmPassword.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Modelo/Usuario.cs" />
-        <option value="$PROJECT_DIR$/Vista/FrmMain.cs" />
         <option value="$PROJECT_DIR$/Modelo/Inventario.cs" />
         <option value="$PROJECT_DIR$/Controlador/ControladorPedido.cs" />
         <option value="$PROJECT_DIR$/Controlador/ControladorInventario.cs" />
         <option value="$PROJECT_DIR$/Controlador/ControladorUsuario.cs" />
-        <option value="$PROJECT_DIR$/Vista/FrmLogin.cs" />
         <option value="$PROJECT_DIR$/Controlador/ConexionBD.cs" />
+        <option value="$PROJECT_DIR$/Vista/FrmLogin.cs" />
         <option value="$PROJECT_DIR$/Vista/FrmPassword.cs" />
+        <option value="$PROJECT_DIR$/Vista/FrmMain.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1cey9sZ2TqMHfyuzsTNhLgYp1GJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -43,6 +60,7 @@
   <component name="PropertiesComponent">
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -86,6 +104,7 @@
       <workItem from="1590909822440" duration="1809000" />
       <workItem from="1590911648876" duration="2771000" />
       <workItem from="1590954345658" duration="7199000" />
+      <workItem from="1590983468880" duration="2516000" />
     </task>
     <servers />
   </component>
@@ -95,21 +114,21 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="WindowStateProjectService">
-    <state width="2005" height="2" key="GridCell.Tab.0.bottom" timestamp="1590962353665">
+    <state width="2005" height="2" key="GridCell.Tab.0.bottom" timestamp="1590986008085">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="2" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1590962353665" />
-    <state width="2005" height="2" key="GridCell.Tab.0.center" timestamp="1590962353664">
+    <state width="2005" height="2" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1590986008085" />
+    <state width="2005" height="2" key="GridCell.Tab.0.center" timestamp="1590986008085">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="2" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1590962353664" />
-    <state width="2005" height="2" key="GridCell.Tab.0.left" timestamp="1590962353663">
+    <state width="2005" height="2" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1590986008085" />
+    <state width="2005" height="2" key="GridCell.Tab.0.left" timestamp="1590986008084">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="2" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1590962353663" />
-    <state width="2005" height="2" key="GridCell.Tab.0.right" timestamp="1590962353665">
+    <state width="2005" height="2" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1590986008084" />
+    <state width="2005" height="2" key="GridCell.Tab.0.right" timestamp="1590986008085">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="2" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1590962353665" />
+    <state width="2005" height="2" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1590986008085" />
   </component>
 </project>

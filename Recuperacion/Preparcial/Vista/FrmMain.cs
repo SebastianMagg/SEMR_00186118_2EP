@@ -75,7 +75,7 @@ namespace Preparcial.Vista
             }
         }
 
-        // en el designer se ajusto el nombre, decia eliminar dos veces, se le arreglo a actualizar
+        // Correccion: en el designer se ajusto el nombre, decia eliminar dos veces, se le arreglo a actualizar
         private void bttnUpdateStockInventary_Click(object sender, EventArgs e)
         {
             if (txtUpdateStockIdInventary.Text.Equals("") && txtUpdateStockInventary.Text.Equals(""))
